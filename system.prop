@@ -8,6 +8,15 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
 camera.disable_zsl_mode=true
+persist.camera.assert.panic=true
+persist.camera.privapp.list=com.oneplus.camera
+persist.vendor.camera.privapp.list=com.oneplus.camera
+ro.opcamera.support=true
+vendor.camera.aux.packagelist=com.oneplus.camera
+vendor.camera.skip_unconfigure.packagelist=com.oneplus.camera
+
+# Codec2 for audio and OMX for Video
+debug.stagefright.ccodec=1
 
 # Charger
 ro.charger.disable_init_blank=true
