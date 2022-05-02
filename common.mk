@@ -413,6 +413,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/nxp/opensource/sn100x/halimpl/SN100x/halimpl/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
+# NFC (Android Beam)
+PRODUCT_COPY_FILES += \
+    vendor/kscope/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
+
 # OMX
 PRODUCT_PACKAGES += \
     init.qti.media.sh \
