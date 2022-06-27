@@ -133,7 +133,7 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.oneplus_k
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(COMMON_PATH)/device_framework_matrix.xml \
-    vendor/kscope/config/vintf/device_framework_matrix.xml
+    vendor/kscope/target/config/vintf/device_framework_matrix.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
