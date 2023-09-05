@@ -1,6 +1,3 @@
-# brightness
-type sysfs_oem, sysfs_type, fs_type;
-
 # files
 type oem_file, file_type;
 type op1_file, file_type;
